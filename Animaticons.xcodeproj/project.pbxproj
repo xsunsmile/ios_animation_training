@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9308CF571A9E8E5700480C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308CF561A9E8E5700480C32 /* AppDelegate.swift */; };
-		9308CF591A9E8E5700480C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308CF581A9E8E5700480C32 /* ViewController.swift */; };
 		9308CF5C1A9E8E5700480C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9308CF5A1A9E8E5700480C32 /* Main.storyboard */; };
 		9308CF5E1A9E8E5700480C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9308CF5D1A9E8E5700480C32 /* Images.xcassets */; };
 		9308CF611A9E8E5700480C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9308CF5F1A9E8E5700480C32 /* LaunchScreen.xib */; };
 		9308CF6D1A9E8E5700480C32 /* AnimaticonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308CF6C1A9E8E5700480C32 /* AnimaticonsTests.swift */; };
+		9308CF771A9E8FA300480C32 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308CF761A9E8FA300480C32 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		9308CF511A9E8E5700480C32 /* Animaticons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animaticons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9308CF551A9E8E5700480C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9308CF561A9E8E5700480C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9308CF581A9E8E5700480C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9308CF5B1A9E8E5700480C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9308CF5D1A9E8E5700480C32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9308CF601A9E8E5700480C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9308CF661A9E8E5700480C32 /* AnimaticonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaticonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9308CF6B1A9E8E5700480C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9308CF6C1A9E8E5700480C32 /* AnimaticonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaticonsTests.swift; sourceTree = "<group>"; };
+		9308CF761A9E8FA300480C32 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9308CF561A9E8E5700480C32 /* AppDelegate.swift */,
-				9308CF581A9E8E5700480C32 /* ViewController.swift */,
+				9308CF761A9E8FA300480C32 /* CanvasViewController.swift */,
 				9308CF5A1A9E8E5700480C32 /* Main.storyboard */,
 				9308CF5D1A9E8E5700480C32 /* Images.xcassets */,
 				9308CF5F1A9E8E5700480C32 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9308CF591A9E8E5700480C32 /* ViewController.swift in Sources */,
+				9308CF771A9E8FA300480C32 /* CanvasViewController.swift in Sources */,
 				9308CF571A9E8E5700480C32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
